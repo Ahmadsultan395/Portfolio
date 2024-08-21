@@ -27,27 +27,28 @@ export const WhatDoIHelp = [
   "We use process design to create digital products. Besides that also help their business",
 ];
 
+
 export const workExp = [
   {
-    place: "Self-Employed, Brisbane",
-    tenure: "Aug 2014 - Sep 2016",
-    role: "Visual Designer",
+    place: "ITify (SMC PRIVATE) LIMITED",
+    tenure: "July 2023 - Aug 2024",
+    role: "Frontend Developer",
     detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+      "As a front-end developer, I specialize in crafting interactive experiences across diverse platforms, including websites, web apps, and more. I bring concepts to life with clean, efficient code, turning ideas into visually stunning and highly functional digital products.",
   },
   {
-    place: "New Man Services",
-    tenure: "Aug 2014 - Sep 2016",
-    role: "UI/UX Designer",
+    place: "ITify (SMC PRIVATE) LIMITED",
+    tenure: "July 2023 - Aug 2024",
+    role: "ReactJs Developer",
     detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+      "As a React.js developer, I build dynamic and responsive web applications. I turn innovative ideas into engaging digital solutions. My focus is on creating high-performance, visually compelling experiences with efficient code.",
   },
   {
-    place: "Global Solution",
-    tenure: "Aug 2014 - Sep 2016",
-    role: "Sr. Product Designer",
+    place: "Moshlay Creatives",
+    tenure: "Aug 2024 - Present",
+    role: "ReactJs Developer",
     detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+      "With years of experience in React.js, I craft dynamic and responsive web applications. I turn innovative ideas into high-performance, visually compelling digital solutions. My expertise lies in delivering engaging user experiences through efficient, refined code.",
   },
 ];
 
