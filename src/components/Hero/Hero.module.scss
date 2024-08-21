@@ -69,6 +69,7 @@
             background-repeat: no-repeat;
             background-size: 23rem;
             left: 33%;
+            // filter: drop-shadow(20px 0px 10px red);
 
             img {
                 @media (max-width: $sm ) {
