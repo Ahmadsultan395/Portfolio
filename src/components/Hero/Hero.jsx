@@ -2,6 +2,13 @@ import React from "react";
 import { fadeIn, slideIn, staggerContainer } from "../../utils/motion";
 import css from "./Hero.module.scss";
 import { motion } from "framer-motion";
+import { FaDownload } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
+
+
+
+
 const Hero = () => {
   return (
     <section className={`paddings ${css.wrapper}`}>
@@ -46,10 +53,23 @@ const Hero = () => {
           </motion.div>
 
           <motion.div variants={fadeIn("left", "tween", 0.5, 1)} className={css.certificate}>
-            <img src="./certificate.png" alt="" />
+            
+            <a href="" style={{
+              textDecoration:'none'
+            }}><span className={css.certificatespan1}> Download CV<FaDownload style={{marginLeft:'.2rem'}}/></span></a>
+           <a href=""> <span className={css.certificatespan2}><FaGithub /></span></a>
+           <a href=""> <span className={css.certificatespan3}><FaLinkedinIn /></span></a>
+          </motion.div>
+
+          {/* <motion.div variants={fadeIn("left", "tween", 0.5, 1)} className={css.certificate}>
+            <img src="./resumeicone.png" alt="" />
             <span>CERTIFIED PROFATIONAL</span>
             <span>WEB DEVELOPER</span>
-          </motion.div>
+          </motion.div><motion.div variants={fadeIn("left", "tween", 0.5, 1)} className={css.certificate}>
+            <img src="./resumeicone.png" alt="" />
+            <span>CERTIFIED PROFATIONAL</span>
+            <span>WEB DEVELOPER</span>
+          </motion.div> */}
         </div>
       </motion.div>
     </section>

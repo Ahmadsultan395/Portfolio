@@ -3,7 +3,7 @@ import { CiMobile1 } from "react-icons/ci";
 import { MdWorkspacesOutline } from "react-icons/md";
 export const projectExperience = [
   {
-    name: "Website Design",
+    name: "Responsive Website",
     projects: 76,
     icon: HiOutlineDesktopComputer,
     bg: "#286F6C",
@@ -23,8 +23,7 @@ export const projectExperience = [
 ];
 
 export const WhatDoIHelp = [
-  "I will help you with finging a solution and solve your problem, We use process design to create digital products. Besides that also help their business.",
-  "We use process design to create digital products. Besides that also help their business",
+  "I am a frontend developer with 1.5 years of experience in building high-performance web applications. My expertise lies in HTML, CSS, JavaScript, and frameworks and libraries such as Bootstrap, jQuery, React.js, Material-UI, and Tailwind CSS. I specialize in creating responsive and dynamic user interfaces. While I have basic knowledge of backend technologies like Node.js, MongoDB, and SQL, as well as tools like MS Excel and MS Word, my primary focus and strength are in frontend development. I am eager to apply my skills to innovative projects that enhance user engagement and drive business success.",
 ];
 
 
@@ -54,68 +53,68 @@ export const workExp = [
 
 export const comments = [
   {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
+    name: "Usama Jawad",
+    post: "Web Developer",
     comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "Working with Ahmad Sultan was an absolute pleasure. They took our outdated website and transformed it into a modern, responsive platform that has significantly improved our user experience.",
     img: "./people2.png",
   },
   {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
+    name: "Adeel Ahmad",
+    post: "Business Developer",
     comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "Ahmad Sultan has a unique ability to blend technical skill with creative thinking. They developed a customized solution for our e-commerce site that was instrumental in our business growth.",
     img: "./people1.png",
   },
   {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
+    name: "Hamza Saood",
+    post: "CEO/Founder",
     comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people2.png",
+      "Ahmad Sultan is a skilled web developer who understood our product’s challenges and crafted a solution that met all our requirements. Their professionalism made the process seamless",
+    img: "./hamza.jpg",
   },
-  {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
-    comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people1.png",
-  },
-  {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
-    comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people2.png",
-  },
-  {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
-    comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people1.png",
-  },
-  {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
-    comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people2.png",
-  },
-  {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
-    comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people1.png",
-  },
-  {
-    name: "Anamika Sandula",
-    post: "Creative Manager",
-    comment:
-      "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    img: "./people2.png",
-  },
+  // {
+  //   name: "Anamika Sandula",
+  //   post: "Creative Manager",
+  //   comment:
+  //     "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+  //   img: "./people1.png",
+  // },
+  // {
+  //   name: "Anamika Sandula",
+  //   post: "Creative Manager",
+  //   comment:
+  //     "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+  //   img: "./people2.png",
+  // },
+  // {
+  //   name: "Anamika Sandula",
+  //   post: "Creative Manager",
+  //   comment:
+  //     "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+  //   img: "./people1.png",
+  // },
+  // {
+  //   name: "Anamika Sandula",
+  //   post: "Creative Manager",
+  //   comment:
+  //     "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+  //   img: "./people2.png",
+  // },
+  // {
+  //   name: "Anamika Sandula",
+  //   post: "Creative Manager",
+  //   comment:
+  //     "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+  //   img: "./people1.png",
+  // },
+  // {
+  //   name: "Anamika Sandula",
+  //   post: "Creative Manager",
+  //   comment:
+  //     "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+  //   img: "./people2.png",
+  // },
 ];
 
 export const sliderSettings = {
