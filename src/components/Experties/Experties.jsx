@@ -39,14 +39,12 @@ const Experties = () => {
             </div>
           </div>
 
-          {/* New Skills Section */}
-          <div className={css.skillsSection}>
-            <h2 className='primaryText'>My Skills</h2>
+          {/* Updated Skills Section */}
+          <div className={`flexCenter ${css.skillsSection}`}>
+            <h2 className={`primaryText ${css.skillsHeading}`}>My Skills</h2>
             <div className={css.skills}>
               {skills.map((skill, i) => (
-                <div className={css.skillBox} key={i}>
-                  <span className='primaryText'>{skill}</span>
-                </div>
+                <span className={css.skill} key={i}>{skill}</span>
               ))}
             </div>
           </div>

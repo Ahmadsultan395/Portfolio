@@ -57,14 +57,14 @@ export const comments = [
     post: "Web Developer",
     comment:
       "Working with Ahmad Sultan was an absolute pleasure. They took our outdated website and transformed it into a modern, responsive platform that has significantly improved our user experience.",
-    img: "./people2.png",
+    img: "./usama2.jpg",
   },
   {
-    name: "Adeel Ahmad",
+    name: "Muhammad Ahmad",
     post: "Business Developer",
     comment:
       "Ahmad Sultan has a unique ability to blend technical skill with creative thinking. They developed a customized solution for our e-commerce site that was instrumental in our business growth.",
-    img: "./people1.png",
+    img: "./ahmadm2.jpg",
   },
   {
     name: "Hamza Saood",
