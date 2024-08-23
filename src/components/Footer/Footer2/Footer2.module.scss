@@ -1,4 +1,4 @@
-@import '../../styles/contants.scss';
+@import '../../../styles/contants.scss';
 
 .wrapper{
     background: white;
@@ -35,11 +35,6 @@
                 }
             }
             .menu{
-                a{
-                    text-decoration: none;
-                    color: #132f3f;
-                }
-
                 @media (max-width: $sm) {
                     flex-direction: row;
                     flex-wrap: wrap;

@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 import { staggerContainer, textVariant } from '../../utils/motion.js';
 
 const skills = [
-  'HTML', 'CSS', 'JavaScript', 'Bootstrap', 'jQuery', 'React.js', 'Material-UI', 'Tailwind CSS'
+  'HTML', 'CSS', 'JavaScript', 'Bootstrap', 'jQuery', 'React.js', 'Material-UI', 'Tailwind CSS' , 'SCSS', 'SASS',
 ];
 
 const Experties = () => {
@@ -28,7 +28,7 @@ const Experties = () => {
             <span className='secondaryText' key={i}>{paragraph}</span>
           ))}
 
-          <div className={`flexCenter ${css.stats}`}>
+          {/* <div className={`flexCenter ${css.stats}`}>
             <div className={`flexCenter ${css.stat}`}>
               <span className='primaryText'>285+</span>
               <span className='secondaryText'>Project Completed</span>
@@ -37,7 +37,7 @@ const Experties = () => {
               <span className='primaryText'>190+</span>
               <span className='secondaryText'>Happy Clients</span>
             </div>
-          </div>
+          </div> */}
 
           {/* Updated Skills Section */}
           <div className={`flexCenter ${css.skillsSection}`}>

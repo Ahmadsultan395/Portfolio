@@ -1,40 +1,47 @@
 @import '../../styles/contants.scss';
 
-.wrapper{
-    background: white;
-    overflow: hidden;
-    .container{
-        flex-direction: column;
-        gap: 2rem;
-        .heading{
-            width: 100%;
-            justify-content: space-between;
-            align-items: flex-end;
-            flex-wrap: wrap; 
-            >:nth-child(2)
-            {
-                text-decoration: underline;
-                color: orange;
-                cursor: pointer;
-            }
-        }    
-        
-        .showCase{
-            width: 100%;
-            gap: 1.5rem;
-            justify-content: space-around;
-            flex-wrap: wrap;
-            >img{
+.wrapper {
+  background: white;
+  overflow: hidden;
 
-                @media (max-width: $sm) {
-                    width: 100%;
-                }
-                border-radius: 20px;
-                max-width: 25rem;
-                max-height: 18rem;
-                box-shadow: 0px 21px 13px rgba(0, 0, 0, 13%);
-                cursor: pointer;
-            }
-        }
+  .container {
+    flex-direction: column;
+    gap: 2rem;
+
+    .heading {
+      width: 100%;
+      justify-content: space-between;
+      align-items: flex-end;
+      flex-wrap: wrap;
+
+      > :nth-child(2) {
+        text-decoration: underline;
+        color: orange;
+        cursor: pointer;
+      }
     }
+
+    .showCase {
+      width: 100%;
+      justify-content: space-around;
+      flex-wrap: wrap;
+
+      .slider {
+        width: 100%;
+        .slick-slide {
+          margin: 0 150px; // Add gap between slides
+        }
+
+        .sliderImage {
+          width: 100%;
+          height: 300px; // Set the fixed height for images
+          object-fit: cover; // Ensures the image covers the area without distorting
+          border-radius: 20px;
+          box-shadow: 0px 21px 13px rgba(0, 0, 0, 13%);
+          object-fit: cover;
+          cursor: pointer;
+        }
+      }
+    }
+  }
 }

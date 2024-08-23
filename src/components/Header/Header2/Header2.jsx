@@ -1,15 +1,17 @@
 import React, { useEffect, useRef, useState } from "react";
-import css from "./Header.module.scss";
+import css from "./Header2.module.scss";
 import { BiPhoneCall, BiMenuAltRight } from "react-icons/bi";
 import { motion } from "framer-motion";
-import { getMenuStyles, headerVariants } from "../../utils/motion";
-import useOutsideAlerter from "../../hooks/useOutsideAlerter";
-import useHeaderShadow from "../../hooks/useHeaderShadow";
+import { getMenuStyles, headerVariants } from "../../../utils/motion";
+import useOutsideAlerter from "../../../hooks/useOutsideAlerter";
+import useHeaderShadow from "../../../hooks/useHeaderShadow";
+import { useNavigate } from "react-router-dom";
 
-const Header = () => {
+const Header2 = () => {
   const menuRef = useRef(null);
   const [menuOpened, setMenuOpened] = useState(false);
   const headerShadow = useHeaderShadow();
+  const navigate = useNavigate();
 
   //to handle click outside of sidebar on mobile
   useOutsideAlerter({
@@ -33,12 +35,12 @@ const Header = () => {
           ref={menuRef}
           style={getMenuStyles(menuOpened)}
         >
-          <li><a href="#experties">About</a></li>
-          <li><a href="#work">Experience</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#people">Testimonials</a></li>
+          <li onClick={()=>navigate('/')} ><a href="#experties">About</a></li>
+          <li onClick={()=>navigate('/')} ><a href="#work">Experience</a></li>
+          <li onClick={()=>navigate('/')} ><a href="#portfolio">Portfolio</a></li>
+          <li onClick={()=>navigate('/')} ><a href="#people">Testimonials</a></li>
           <li className={`flexCenter ${css.phone}`}>
-           <a href="tel:+923120685288" >
+          <a href="tel:+923120685288" >
            <p>+923120685288</p>
            <BiPhoneCall size={"40px"} />
            </a>
@@ -57,4 +59,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Header2;

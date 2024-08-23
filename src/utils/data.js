@@ -30,14 +30,14 @@ export const WhatDoIHelp = [
 export const workExp = [
   {
     place: "ITify (SMC PRIVATE) LIMITED",
-    tenure: "July 2023 - Aug 2024",
-    role: "Frontend Developer",
+    tenure: "July 2023 - Sep 2023",
+    role: "Frontend Developer Internship",
     detail:
-      "As a front-end developer, I specialize in crafting interactive experiences across diverse platforms, including websites, web apps, and more. I bring concepts to life with clean, efficient code, turning ideas into visually stunning and highly functional digital products.",
+      "Internship as a front-end developer, I specialize in crafting interactive experiences across diverse platforms, including websites, web apps, and more. I bring concepts to life with clean, efficient code, turning ideas into visually stunning and highly functional digital products.",
   },
   {
     place: "ITify (SMC PRIVATE) LIMITED",
-    tenure: "July 2023 - Aug 2024",
+    tenure: "Sep 2023 - Aug 2024",
     role: "ReactJs Developer",
     detail:
       "As a React.js developer, I build dynamic and responsive web applications. I turn innovative ideas into engaging digital solutions. My focus is on creating high-performance, visually compelling experiences with efficient code.",

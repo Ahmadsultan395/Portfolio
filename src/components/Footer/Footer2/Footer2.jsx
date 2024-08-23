@@ -1,8 +1,10 @@
 import React from "react";
-import { footerVariants, staggerChildren } from "../../utils/motion";
-import css from "./Footer.module.scss";
+import { footerVariants, staggerChildren } from "../../../utils/motion";
+import css from "./Footer2.module.scss";
 import {motion} from 'framer-motion'
-const Footer = () => {
+import { useNavigate } from "react-router-dom";
+const Footer2 = () => {
+  const navigate = useNavigate();
   return (
     <motion.section
     variants={staggerChildren}
@@ -31,10 +33,10 @@ const Footer = () => {
             <p>Lahore, Pakistan</p>
           </div>
           <ul className={css.menu}>
-          <li><a href="#experties">About</a></li>
-          <li><a href="#work">Experience</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#people">Testimonials</a></li>
+            <li onClick={()=>navigate('/')}>About</li>
+            <li onClick={()=>navigate('/')}>Works</li>
+            <li onClick={()=>navigate('/')}>Notes</li>
+            <li onClick={()=>navigate('/')}>Experience</li>
           </ul>
         </div>
       </motion.div>
@@ -42,4 +44,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default Footer2;

@@ -5,11 +5,13 @@ import { motion } from "framer-motion";
 import { FaDownload } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
-
-
-
+import { saveAs } from "file-saver";
 
 const Hero = () => {
+  const handleDownload = () => {
+    saveAs("/file.pdf", "ahmadResume.pdf");
+  };
+
   return (
     <section className={`paddings ${css.wrapper}`}>
       <motion.div
@@ -20,12 +22,18 @@ const Hero = () => {
         className={`innerWidth ${css.container}`}
       >
         <div className={css.upperElements}>
-          <motion.span className="primaryText" variants={fadeIn("right", "tween", 0.2, 1)}>
+          <motion.span
+            className="primaryText"
+            variants={fadeIn("right", "tween", 0.2, 1)}
+          >
             Hey There,
             <br />
             I'm Ahmad Sultan.
           </motion.span>
-          <motion.span className="secondaryText"variants={fadeIn("left", "tween", 0.4, 1)}>
+          <motion.span
+            className="secondaryText"
+            variants={fadeIn("left", "tween", 0.4, 1)}
+          >
             I craft beautiful & seamless
             <br />
             website, And I love what i do{" "}
@@ -36,15 +44,22 @@ const Hero = () => {
           variants={fadeIn("up", "tween", 0.3, 1)}
           className={css.person}
         >
-          <motion.img variants={slideIn("up", "tween", 0.5, 1.3)} src="./ahmad.png" alt="" />
+          <motion.img
+            variants={slideIn("up", "tween", 0.5, 1.3)}
+            src="./ahmad.png"
+            alt=""
+          />
         </motion.div>
 
-        <a className={css.email} href="mailto:zainkeepscode@gmail.com">
+        <a className={css.email} href="mailto:ahmadsultan395@gmail.com">
           ahmadsultan395@gmail.com
         </a>
 
         <div className={css.lowerElements}>
-          <motion.div variants={fadeIn("right", "tween", 0.3, 1)} className={css.experience}>
+          <motion.div
+            variants={fadeIn("right", "tween", 0.3, 1)}
+            className={css.experience}
+          >
             <div className="primaryText">2</div>
             <div className="secondaryText">
               <div>Years</div>
@@ -52,13 +67,38 @@ const Hero = () => {
             </div>
           </motion.div>
 
-          <motion.div variants={fadeIn("left", "tween", 0.5, 1)} className={css.certificate}>
-            
-            <a href="" style={{
-              textDecoration:'none'
-            }}><span className={css.certificatespan1}> Download CV<FaDownload style={{marginLeft:'.2rem'}}/></span></a>
-           <a href=""> <span className={css.certificatespan2}><FaGithub /></span></a>
-           <a href=""> <span className={css.certificatespan3}><FaLinkedinIn /></span></a>
+          <motion.div
+            variants={fadeIn("left", "tween", 0.5, 1)}
+            className={css.certificate}
+          >
+            <a
+              href=""
+              onClick={(e) => {
+                e.preventDefault(); // Prevent default anchor behavior
+                handleDownload();
+              }}
+              style={{
+                textDecoration: "none",
+              }}
+            >
+              <span className={css.certificatespan1}>
+                {" "}
+                Download CV
+                <FaDownload style={{ marginLeft: ".2rem" }} />
+              </span>
+            </a>
+            <a href="https://github.com/Ahmadsultan395">
+              {" "}
+              <span className={css.certificatespan2}>
+                <FaGithub />
+              </span>
+            </a>
+            <a href="https://www.linkedin.com/in/muhammad-ahmad-b9214b271?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+              {" "}
+              <span className={css.certificatespan3}>
+                <FaLinkedinIn />
+              </span>
+            </a>
           </motion.div>
 
           {/* <motion.div variants={fadeIn("left", "tween", 0.5, 1)} className={css.certificate}>
