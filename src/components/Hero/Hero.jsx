@@ -9,7 +9,7 @@ import { saveAs } from "file-saver";
 
 const Hero = () => {
   const handleDownload = () => {
-    saveAs("/file.pdf", "ahmadResume.pdf");
+    saveAs("/ahmadResume.pdf", "ahmadResume.pdf");
   };
 
   return (
