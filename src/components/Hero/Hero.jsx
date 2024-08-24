@@ -26,9 +26,9 @@ const Hero = () => {
             className="primaryText"
             variants={fadeIn("right", "tween", 0.2, 1)}
           >
-            Hey There,
+            <span style={{color:'#243749'}}>Hey! I Am ,</span>
             <br />
-            I'm Ahmad Sultan.
+           <span style={{ color:'orange'}}> Ahmad Sultan</span>
           </motion.span>
           <motion.span
             className="secondaryText"
@@ -44,15 +44,15 @@ const Hero = () => {
           variants={fadeIn("up", "tween", 0.3, 1)}
           className={css.person}
         >
-          <motion.img
+          <motion.img className="ahmadimage"
             variants={slideIn("up", "tween", 0.5, 1.3)}
-            src="./ahmad.png"
+            src="./ahmadnew.png"
             alt=""
           />
         </motion.div>
 
         <a className={css.email} href="mailto:ahmadsultan395@gmail.com">
-          ahmadsultan395@gmail.com
+          {/* ahmadsultan395@gmail.com */}
         </a>
 
         <div className={css.lowerElements}>

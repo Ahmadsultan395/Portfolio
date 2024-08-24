@@ -16,10 +16,18 @@
 
         .name {
             font-size: 1.5rem;
-            font-weight: 500;
+            font-weight: 600;
+            // color:#243749;
+            color: orange;
+            filter: drop-shadow(10px 10px 10px orange);
+            // color: red;
         }
 
         .menu {
+            
+            li{
+                color:#243749;
+            }
 
             @media (max-width: $sm),
             (max-width: $md) {

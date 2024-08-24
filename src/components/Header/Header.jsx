@@ -14,7 +14,7 @@ const Header = () => {
   //to handle click outside of sidebar on mobile
   useOutsideAlerter({
     menuRef,
-    setMenuOpened,
+    menuOpened,
   });
 
   return (
@@ -40,7 +40,9 @@ const Header = () => {
           <li className={`flexCenter ${css.phone}`}>
            <a href="tel:+923120685288" >
            <p>+923120685288</p>
-           <BiPhoneCall size={"40px"} />
+           <BiPhoneCall size={"40px"}  style={{backgroundColor:'orange', color:'white', 
+            boxShadow:'0px 5px 30px orange'
+            }}/>
            </a>
           </li>
         </ul>

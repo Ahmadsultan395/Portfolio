@@ -36,7 +36,9 @@
                 display: flex!important;
                 flex-direction: column;
                 gap: 1rem;
-                background: white;
+                background: orange;
+                color: white;
+                // background: white;
                 border-radius: 20px;
                 position: relative;
                 img{
@@ -69,7 +71,7 @@
                     >:nth-child(2)
                     {
                         font-size: 0.7rem;
-                        color:  rgb(172, 172, 172);
+                        // color:  rgb(236, 235, 235);  
                     }
                 }
             }
