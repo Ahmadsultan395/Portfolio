@@ -11,7 +11,8 @@ import { sliderSettings } from "../../utils/data";
 const images = [
   { _id:1 , src: "./itify.png", alt: "Project 1" },
   { _id:2,  src: "./black-tech.png", alt: "Project 2" },
-  {_id:3,  src: "./showCase3.png", alt: "Project 3" },
+  {_id:3,  src: "./promote2.png", alt: "Project 3" },
+  {_id:4,  src: "./javascript2.png", alt: "Project 3" },
   // Add more images as needed
 ];
 
