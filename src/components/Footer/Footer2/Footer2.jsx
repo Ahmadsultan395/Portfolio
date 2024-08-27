@@ -33,10 +33,10 @@ const Footer2 = () => {
             <p>Lahore, Pakistan</p>
           </div>
           <ul className={css.menu}>
-            <li onClick={()=>navigate('/')}>About</li>
-            <li onClick={()=>navigate('/')}>Works</li>
-            <li onClick={()=>navigate('/')}>Notes</li>
-            <li onClick={()=>navigate('/')}>Experience</li>
+          <li onClick={()=>navigate('/')} ><a href="#experties">About</a></li>
+          <li onClick={()=>navigate('/')} ><a href="#work">Experience</a></li>
+          <li onClick={()=>navigate('/')} ><a href="#portfolio">Portfolio</a></li>
+          <li onClick={()=>navigate('/')} ><a href="#people">Testimonials</a></li>
           </ul>
         </div>
       </motion.div>

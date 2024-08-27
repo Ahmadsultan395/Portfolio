@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Experties from './components/Experties/Experties'
 import Footer from './components/Footer/Footer'
 import Header from './components/Header/Header'
@@ -11,6 +11,9 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import PortFolioDetail from './components/Portfolio/PortfolioDetail/PortFolioDetail'
 const App = () => {
   //don't forget to add font link in index.html
+  useEffect(()=>{
+    window.scrollTo(0,0);
+  },[])
   return (
 <div className={`bg-primary ${css.container}`}>
       <Router>

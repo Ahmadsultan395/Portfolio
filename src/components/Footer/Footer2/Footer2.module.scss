@@ -48,6 +48,12 @@
                     color: white    ;
                     font-weight: 500;
                 }
+                a{
+                    text-decoration: none;
+                    // color: #132f3f;
+                    color: white    ;
+                    font-weight: 500;
+                }
 
                 @media (max-width: $sm) {
                     flex-direction: row;

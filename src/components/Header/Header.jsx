@@ -17,6 +17,10 @@ const Header = () => {
     menuOpened,
   });
 
+const handleHome = ()=>{
+  window.scrollTo(0,0)
+}
+
   return (
     <motion.div
       variants={headerVariants}
@@ -27,7 +31,7 @@ const Header = () => {
       style={{boxShadow: headerShadow}}
     >
       <div className={`innerWidth ${css.container} flexCenter`}>
-        <div className={css.name}>M.Ahmad Sultan</div>
+        <div className={css.name} onClick={handleHome}>M.Ahmad Sultan</div>
         <ul
           className={`flexCenter ${css.menu}`}
           ref={menuRef}
