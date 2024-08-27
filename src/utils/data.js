@@ -23,17 +23,18 @@ export const projectExperience = [
 ];
 
 export const WhatDoIHelp = [
-  "I am a frontend developer with 1.5 years of experience in building high-performance web applications. My expertise lies in HTML, CSS, JavaScript, and frameworks and libraries such as Bootstrap, jQuery, React.js, Material-UI, and Tailwind CSS. I specialize in creating responsive and dynamic user interfaces. While I have basic knowledge of backend technologies like Node.js, MongoDB, and SQL, as well as tools like MS Excel and MS Word, my primary focus and strength are in frontend development. I am eager to apply my skills to innovative projects that enhance user engagement and drive business success.",
+  "I am a frontend developer with 1.5 years of experience in building high-performance web applications. My expertise lies in HTML, CSS, JavaScript, and frameworks and libraries such as Bootstrap, jQuery, React.js, Material-UI, SCSS, SASS and Tailwind CSS. I specialize in creating responsive and dynamic user interfaces. While I have basic knowledge of backend technologies like Node.js, MongoDB, and SQL, as well as tools like MS Excel and MS Word, my primary focus and strength are in frontend development. I am eager to apply my skills to innovative projects that enhance user engagement and drive business success.",
 ];
 
 
 export const workExp = [
+
   {
-    place: "ITify (SMC PRIVATE) LIMITED",
-    tenure: "July 2023 - Sep 2023",
-    role: "Frontend Developer Internship",
+    place: "Moshlay Creatives",
+    tenure: "Aug 2024 - Present",
+    role: "ReactJs Developer",
     detail:
-      "Internship as a front-end developer, I specialize in crafting interactive experiences across diverse platforms, including websites, web apps, and more. I bring concepts to life with clean, efficient code, turning ideas into visually stunning and highly functional digital products.",
+      "With years of experience in React.js, I craft dynamic and responsive web applications. I turn innovative ideas into high-performance, visually compelling digital solutions. My expertise lies in delivering engaging user experiences through efficient, refined code.",
   },
   {
     place: "ITify (SMC PRIVATE) LIMITED",
@@ -43,11 +44,11 @@ export const workExp = [
       "As a React.js developer, I build dynamic and responsive web applications. I turn innovative ideas into engaging digital solutions. My focus is on creating high-performance, visually compelling experiences with efficient code.",
   },
   {
-    place: "Moshlay Creatives",
-    tenure: "Aug 2024 - Present",
-    role: "ReactJs Developer",
+    place: "ITify (SMC PRIVATE) LIMITED",
+    tenure: "July 2023 - Sep 2023",
+    role: "Frontend Developer Internship",
     detail:
-      "With years of experience in React.js, I craft dynamic and responsive web applications. I turn innovative ideas into high-performance, visually compelling digital solutions. My expertise lies in delivering engaging user experiences through efficient, refined code.",
+      "Internship as a front-end developer, I specialize in crafting interactive experiences across diverse platforms, including websites, web apps, and more. I bring concepts to life with clean, efficient code, turning ideas into visually stunning and highly functional digital products.",
   },
 ];
 

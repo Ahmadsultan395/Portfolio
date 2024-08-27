@@ -46,7 +46,7 @@ const Portfolio = () => {
         <div className={`flexCenter ${css.showCase}`}>
           <Slider {...sliderSettings} className={css.slider}>
             {images.map((image, index) => (
-              <motion.div key={index} variants={fadeIn("up", "tween", 0.5, 0.6)} style={{marginRight:'3rem'}}>
+              <motion.div key={index} variants={fadeIn("up", "tween", 0.5, 0.6)} style={{marginRight:'10rem'}}>
                 <img
                   src={image.src}
                   alt={image.alt}

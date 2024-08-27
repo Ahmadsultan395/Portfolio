@@ -18,6 +18,7 @@
         font-size: 2rem;
         font-weight: bold;
         color: #333;
+        // text-align: center;
       }
 
       .skillsSection {
@@ -61,11 +62,13 @@
             .primaryText {
               font-size: 1.5rem;
               color: #333;
+              text-align: center;
             }
 
             .secondaryText {
               font-size: 1rem;
               color: #666;
+              text-align: center;
             }
           }
         }

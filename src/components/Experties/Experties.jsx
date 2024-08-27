@@ -25,7 +25,7 @@ const Experties = () => {
         >
           <span className='primaryText'>About Us</span>
           {WhatDoIHelp.map((paragraph, i) => (
-            <span className='secondaryText' key={i}>{paragraph}</span>
+            <span className='secondaryText' style={{textAlign:'center'}} key={i}>{paragraph}</span>
           ))}
 
           {/* <div className={`flexCenter ${css.stats}`}>
@@ -41,7 +41,7 @@ const Experties = () => {
 
           {/* Updated Skills Section */}
           <div className={`flexCenter ${css.skillsSection}`}>
-            <h2 className={`primaryText ${css.skillsHeading}`}>My Skills</h2>
+            <h2 className={`primaryText ${css.skillsHeading}`}>My Skills</h2> <br />
             <div className={css.skills}>
               {skills.map((skill, i) => (
                 <span className={css.skill} key={i}>{skill}</span>

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import css from "./PortFolioDetail.module.scss";
 import { useParams } from "react-router-dom";
 import Header2 from "../../Header/Header2/Header2";
@@ -11,11 +11,11 @@ const PortFolioDetail = () => {
   const   projects = [
         {   _id :1, 
             projectName: "Itify (SMC-Private) Limited" , headerImage:'/itify.png',
-            desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi consequuntur tempora nisi voluptatibus eius, laboriosam consequatur natus maiores dolorum corrupti magni earum provident, debitis possimus magnam. Amet repellendus molestias mollitia quis sapiente similique reiciendis! Aut rem totam dolorem doloremque dolor.",
+            desc: "I am a frontend developer with 1.5 years of experience in building high-performance web applications. My expertise lies in HTML, CSS, JavaScript, and frameworks and libraries such as Bootstrap, jQuery, React.js, Material-UI, SCSS, SASS and Tailwind CSS. I specialize in creating responsive and dynamic user interfaces. While I have basic knowledge of backend technologies like Node.js, MongoDB, and SQL, as well as tools like MS Excel and MS Word, my primary focus and strength are in frontend development. I am eager to apply my skills to innovative projects that enhance user engagement and drive business success",
             skills: [{ skill: 'java' }, { skill: 'php' }, { skill: 'css' },
                 { skill: 'java' }, { skill: 'php' }, { skill: 'css' }
             ],
-            proconDesc:'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo dolore sint sequi, a reprehenderit dolorum aspernatur non architecto? Nisi incidunt eos laudantium, quibusdam neque accusantium rerum blanditiis laborum. Impedit praesentium consectetur quis eligendi dolor repellat, voluptate illum magni incidunt aliquid laboriosam inventore voluptatibus necessitatibus nostrum ratione? Iste quos officiis dolore placeat nihil illo, vitae veniam quaerat possimus similique tempora saepe eaque architecto tenetur at in ipsam, corrupti delectus deleniti dolores, cupiditate blanditiis quae. Accusantium ipsam incidunt laboriosam. Iusto voluptatibus eos laboriosam pariatur ut, consectetur quisquam atque cumque delectus veniam suscipit exercitationem adipisci temporibus, nobis eum nemo nulla, tenetur tempora minus.Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui dignissimos asperiores, fuga ipsa rerum aperiam impedit necessitatibus suscipit maiores neque optio delectus accusamus molestias. Laboriosam quia laudantium accusamus fugiat quis.',
+            proconDesc:'I am a frontend developer with 1.5 years of experience in building high-performance web applications. My expertise lies in HTML, CSS, JavaScript, and frameworks and libraries such as Bootstrap, jQuery, React.js, Material-UI, SCSS, SASS and Tailwind CSS. I specialize in creating responsive and dynamic user interfaces. While I have basic knowledge of backend technologies like Node.js, MongoDB, and SQL, as well as tools like MS Excel and MS Word, my primary focus and strength are in frontend development. I am eager to apply my skills to innovative projects that enhance user engagement and drive business success',
             proconImage:'/showCase2.png'
         },
         {   _id :2, 
@@ -24,7 +24,7 @@ const PortFolioDetail = () => {
             skills: [{ skill: 'java' }, { skill: 'php' }, { skill: 'css' },
                 { skill: 'java' }, { skill: 'php' }, { skill: 'css' }
             ],
-            proconDesc:'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo dolore sint sequi, a reprehenderit dolorum aspernatur non architecto? Nisi incidunt eos laudantium, quibusdam neque accusantium rerum blanditiis laborum. Impedit praesentium consectetur quis eligendi dolor repellat, voluptate illum magni incidunt aliquid laboriosam inventore voluptatibus necessitatibus nostrum ratione? Iste quos officiis dolore placeat nihil illo, vitae veniam quaerat possimus similique tempora saepe eaque architecto tenetur at in ipsam, corrupti delectus deleniti dolores, cupiditate blanditiis quae. Accusantium ipsam incidunt laboriosam. Iusto voluptatibus eos laboriosam pariatur ut, consectetur quisquam atque cumque delectus veniam suscipit exercitationem adipisci temporibus, nobis eum nemo nulla, tenetur tempora minus.Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui dignissimos asperiores, fuga ipsa rerum aperiam impedit necessitatibus suscipit maiores neque optio delectus accusamus molestias. Laboriosam quia laudantium accusamus fugiat quis.',
+            proconDesc:'I am a frontend developer with 1.5 years of experience in building high-performance web applications. My expertise lies in HTML, CSS, JavaScript, and frameworks and libraries such as Bootstrap, jQuery, React.js, Material-UI, SCSS, SASS and Tailwind CSS. I specialize in creating responsive and dynamic user interfaces. While I have basic knowledge of backend technologies like Node.js, MongoDB, and SQL, as well as tools like MS Excel and MS Word, my primary focus and strength are in frontend development. I am eager to apply my skills to innovative projects that enhance user engagement and drive business success',
             proconImage:'/showCase1.png'
         }
 
@@ -32,11 +32,15 @@ const PortFolioDetail = () => {
 
 
   const   projectData = projects.find((project) => project._id == id);
-  console.log('iddd777777777777', projectData)
+  // console.log('iddd777777777777', projectData)
      if (!projectData) {
         return <div>Project not found!</div>;
       }
 
+
+      useEffect(()=>{
+        window.scroll(0,0);
+      },[])
 
   return (
     <>
@@ -46,20 +50,23 @@ const PortFolioDetail = () => {
        {/* {projectData.map((row, id)=>( */}
         <>
          <div key={id} className={css.heroImage} style={{ backgroundImage:`url(${projectData.headerImage})`}}></div>
+        <br />    
         <div className={css.headingContainer} >
           <h1 className={css.heading}>{projectData.projectName}</h1><br />
+          <br />
           <p className={css.subheading}>
             {" "}
            {projectData.desc}
           </p>
         </div>
         <div className={css.skillContainer}>
-          <h1 className={css.skillheading}>Technology</h1><br />
+          <h1 className={css.skillheading}>Technology</h1><br /><br />
           <div style={{display:'flex', flexWrap:'wrap' , justifyContent:'center', gap:'1rem'}}>
           {projectData.skills.map((skill , i)=>(
            <p key={i} className={css.skillsubheading} > {skill.skill} </p>
        ))}
           </div>
+          <br />
 
           <div className={css.procon}>
             <div className={css.proconheading}>
@@ -71,11 +78,13 @@ const PortFolioDetail = () => {
 
             </div>
           </div>
+            <br /><br />
         </div>
         </>
         {/* ))} */}
 
       </div>
+      
       <Footer2/>
     </>
   );

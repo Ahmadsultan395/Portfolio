@@ -19,6 +19,8 @@
     align-items: center;
     padding: 2% 8%;
     text-align: center;
+    // gap: 2rem;
+
 
     .heading{
         font-size: 3rem;
@@ -27,10 +29,11 @@
         font-family: "Eudoxus Sans", sans-serif;
     }
     .subheading{
-        font-size: 1rem;
+        font-size: 1.1rem;
         font-weight: 400;
         color: #132f3f;
         font-family: "Eudoxus Sans", sans-serif;
+        line-height: 40px; 
     }
 
     @media(max-width:640px){
@@ -58,9 +61,12 @@
         font-weight: 400;
         color: #132f3f;
         font-family: "Eudoxus Sans", sans-serif;
-        background-color: lightgray;
-        padding: .5rem 2rem;
-        border-radius: 20px;
+        padding: 0.5rem 1rem;
+          // background-color: #f0f0f0;
+          background-color: orange;
+          color: white;
+          border-radius: 5px;
+          font-size: 1rem;
        }
 
        @media(max-width:640px){
@@ -85,10 +91,11 @@
             font-family: "Eudoxus Sans", sans-serif;
         }
         .prosubheading{
-            font-size: 1rem;
+            font-size: 1.1rem;
         font-weight: 400;
         color: #132f3f;
         font-family: "Eudoxus Sans", sans-serif;
+        line-height: 40px; 
         }
 
         @media(max-width:640px){

@@ -29,7 +29,7 @@ const Header2 = () => {
       style={{boxShadow: headerShadow}}
     >
       <div className={`innerWidth ${css.container} flexCenter`}>
-        <div className={css.name}>M.Ahmad Sultan</div>
+        <div className={css.name} onClick={()=>navigate('/')}>M.Ahmad Sultan</div>
         <ul
           className={`flexCenter ${css.menu}`}
           ref={menuRef}
@@ -42,7 +42,9 @@ const Header2 = () => {
           <li className={`flexCenter ${css.phone}`}>
           <a href="tel:+923120685288" >
            <p>+923120685288</p>
-           <BiPhoneCall size={"40px"} />
+           <BiPhoneCall size={"40px"} style={{backgroundColor:'orange', color:'white', 
+            boxShadow:'0px 5px 30px orange'
+            }} />
            </a>
           </li>
         </ul>
