@@ -74,6 +74,19 @@ export const comments = [
       "Ahmad Sultan is a skilled web developer who understood our product’s challenges and crafted a solution that met all our requirements. Their professionalism made the process seamless",
     img: "./hamza.jpg",
   },
+  {
+    name: "Imran Ashiq",
+    post: "Mern Backend Developer",
+    comment:
+      "Ahmad Sultan is a skilled web developer who understood our product’s challenges and crafted a solution that met all our requirements. Their professionalism made the process seamless",
+    img: "./imran.jpg",
+  },{
+    name: "Adeel Ahmad",
+    post: "Business Developer",
+    comment:
+      "Ahmad Sultan is a skilled web developer who understood our product’s challenges and crafted a solution that met all our requirements. Their professionalism made the process seamless",
+    img: "./adeel.jpg",
+  },
   // {
   //   name: "Anamika Sandula",
   //   post: "Creative Manager",
