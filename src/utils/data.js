@@ -71,20 +71,20 @@ export const comments = [
     name: "Hamza Saood",
     post: "CEO/Founder",
     comment:
-      "Ahmad Sultan is a skilled web developer who understood our product’s challenges and crafted a solution that met all our requirements. Their professionalism made the process seamless",
+      "Ahmad Sultan is a skilled web developer who understood our product’s challenges and crafted a solution that met all our requirements. Their professionalism made the process seamless.",
     img: "./hamza.jpg",
   },
   {
     name: "Imran Ashiq",
     post: "Mern Backend Developer",
     comment:
-      "Ahmad Sultan is a skilled web developer who understood our product’s challenges and crafted a solution that met all our requirements. Their professionalism made the process seamless",
+      "You understood the project requirements well and delivered a clear, user-friendly design with all key information readily accessible. Your friendly and responsive attitude made working with you a pleasure.",
     img: "./imran.jpg",
   },{
     name: "Adeel Ahmad",
     post: "Business Developer",
     comment:
-      "Ahmad Sultan is a skilled web developer who understood our product’s challenges and crafted a solution that met all our requirements. Their professionalism made the process seamless",
+      "Working with you was excellent. You nailed our vision and delivered an intuitive, effective design. Your attention to detail and communication made the process smooth. We’re thrilled with the results and look forward to future projects.",
     img: "./adeel.jpg",
   },
   // {

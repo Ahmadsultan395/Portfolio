@@ -48,7 +48,7 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    padding: 2% 8%;
+    padding: 0% 8%;
 
     .skillheading{
         font-size: 3rem;
@@ -67,6 +67,7 @@
           color: white;
           border-radius: 5px;
           font-size: 1rem;
+          box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.26);
        }
 
        @media(max-width:640px){
@@ -78,9 +79,10 @@
   }
 
   .procon{
-    margin-top: 3rem;
+    margin-top: 2rem;
     display: flex;
     gap: 1rem;
+    padding: 2% 8%;
     .proconheading{
         display: flex;
         flex-direction: column;
@@ -127,5 +129,43 @@ img{
 
   }
   
+  .myrolemain{
+    padding: 0% 8% 1% 8%;
+
+    h1{
+        font-size: 3rem;
+        font-weight: 500;
+        color: #132f3f;
+        font-family: "Eudoxus Sans", sans-serif;
+    }
+    li{
+        font-size: 1.1rem;
+        font-weight: 400;
+        color: #132f3f;
+        font-family: "Eudoxus Sans", sans-serif;
+        line-height: 40px;
+        margin-left: 1.2rem;
+    }
+  }
+  
+  .problemsolve{
+    padding: 0% 8% 4% 8%;
+    // margin-bottom: 2rem;
+
+    h1{
+        font-size: 3rem;
+        font-weight: 500;
+        color: #132f3f;
+        font-family: "Eudoxus Sans", sans-serif;
+    }
+    p{
+        font-size: 1.1rem;
+        font-weight: 400;
+        color: #132f3f;
+        font-family: "Eudoxus Sans", sans-serif;
+        line-height: 40px;
+        // margin-left: 2rem;
+    }
+  }
  
 }

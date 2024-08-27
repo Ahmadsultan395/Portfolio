@@ -12,13 +12,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 
 
 // ==============Done 
-
-
-// ==================Not complete 
-
-
-// drawer not working good at mobile screen 
-
 //itify content 
 //itify skill 
 //itify   about 
@@ -38,3 +31,11 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 
 // imran commnet 
 // adeel comment 
+
+// ==================Not complete 
+
+
+// drawer not working good at mobile screen 
+
+
+
