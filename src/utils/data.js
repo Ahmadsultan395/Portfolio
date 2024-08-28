@@ -55,7 +55,7 @@ export const workExp = [
 export const comments = [
   {
     name: "Usama Jawad",
-    post: "Web Developer",
+    post: "Full Stack Developer",
     comment:
       "Working with Ahmad Sultan was an absolute pleasure. They took our outdated website and transformed it into a modern, responsive platform that has significantly improved our user experience.",
     img: "./usama2.jpg",
@@ -76,7 +76,7 @@ export const comments = [
   },
   {
     name: "Imran Ashiq",
-    post: "Mern Backend Developer",
+    post: "MERN Backend Developer",
     comment:
       "You understood the project requirements well and delivered a clear, user-friendly design with all key information readily accessible. Your friendly and responsive attitude made working with you a pleasure.",
     img: "./imran.jpg",
@@ -84,7 +84,7 @@ export const comments = [
     name: "Adeel Ahmad",
     post: "Business Developer",
     comment:
-      "Working with you was excellent. You nailed our vision and delivered an intuitive, effective design. Your attention to detail and communication made the process smooth. We’re thrilled with the results and look forward to future projects.",
+      "Working with you was excellent. You nailed our vision and delivered an intuitive, effective design. Your attention to detail and communication made the process smooth forward to future projects.",
     img: "./adeel.jpg",
   },
   // {
@@ -194,12 +194,12 @@ export  const projects = [
     rolesubheading1: "Cross-Browser Compatibility:",
     rolesubheading1sub:
       " Ensuring the website looked and functioned well across different browsers was a challenge. I had to write specific CSS and JavaScript code to address inconsistencies, especially in older browsers.",
-    rolesubheading2: "Cross-Browser Compatibility:",
+    rolesubheading2: "Consistent Ui Design:",
     rolesubheading2sub:
-      " Ensuring the website looked and functioned well across different browsers was a challenge. I had to write specific CSS and JavaScript code to address inconsistencies, especially in older browsers.",
-    rolesubheading3: "Cross-Browser Compatibility:",
+      "Maintaining a consistent and cohesive design throughout the site was essential. I focused on aligning the design elements across all pages, ensuring a seamless user experience.",
+    rolesubheading3: "Optimizing the performance:",
     rolesubheading3sub:
-      " Ensuring the website looked and functioned well across different browsers was a challenge. I had to write specific CSS and JavaScript code to address inconsistencies, especially in older browsers.",
+      "I had to minimize the use of heavy scripts and images, implement lazy loading, and compress resources to ensure fast load times and a smooth user experience.",
     problemsolve:'Problems Solved',
     problemsolveDes:'The need to create a website for ITify arose from the company’s desire to establish a strong online presence that accurately represents their brand and services. The website serves as a digital gateway for potential clients to learn about ITify, explore their services, and get in touch with the team. It was crucial to develop a platform that not only highlights ITify’s expertise but also facilitates effective communication and business growth.'
   },
@@ -223,7 +223,7 @@ export  const projects = [
     myrolemain1: "Challenges Faced",
     rolesubheading1: "Responsive Design:",
     rolesubheading1sub:
-      " One of the main challenges was ensuring that the website looked great and functioned well across different devices and screen sizes. I overcame this by carefully utilizing Bootstrap’s responsive utilities and testing the site on various devices.",
+      "One of the main challenges was ensuring that the website looked great and functioned well across different devices and screen sizes. I overcame this by carefully utilizing Bootstrap’s responsive utilities and testing the site on various devices.",
     rolesubheading2: "Form Validation:",
     rolesubheading2sub:
       " Implementing client-side form validation was crucial for the Contact page to ensure that users submitted valid and complete information. This required careful attention to user input handling and error messaging.",
@@ -238,7 +238,7 @@ export  const projects = [
     _id: 3,
     projectName: "Promote",
     headerImage: "/promote2.png",
-    desc: "The Promote Name website was developed for a client who was highly interested in frontend design and wanted a visually striking, complex single-page application. The client provided a Figma design that featured intricate layouts, advanced styling, and a seamless user experience. The main challenge was to bring this design to life while ensuring that it was fully responsive across all devices.",
+    desc: "The Promote  was developed for a client who was highly interested in frontend design and wanted a visually striking, complex single-page application. The client provided a Figma design that featured intricate layouts, advanced styling, and a seamless user experience. The main challenge was to bring this design to life while ensuring that it was fully responsive across all devices.",
     skills: [
       { skill: "Html" },
       { skill: "CSS" },
@@ -262,7 +262,7 @@ export  const projects = [
     rolesubheading3sub:
       "With a design as complex as this, maintaining consistency across different sections and ensuring that the visual elements aligned perfectly was crucial. I paid close attention to detail, ensuring that each section flowed seamlessly into the next.",
     problemsolve:'Purpose and Rationale',
-    problemsolveDes:"The Promote Name website was created to provide the client with a visually stunning online presence that accurately reflected their brand's identity. The single-page application was designed to showcase their services, team, and projects in a manner that was both engaging and easy to navigate. The client’s need for a complex, beautifully designed, and fully responsive site drove the project, and I was able to deliver a final product that exceeded their expectations."
+    problemsolveDes:"The Promote website was created to provide the client with a visually stunning online presence that accurately reflected their brand's identity. The single-page application was designed to showcase their services, team, and projects in a manner that was both engaging and easy to navigate. The client’s need for a complex, beautifully designed, and fully responsive site drove the project, and I was able to deliver a final product that exceeded their expectations."
   },
   {
     _id: 4,

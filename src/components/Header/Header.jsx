@@ -37,12 +37,12 @@ const handleHome = ()=>{
           ref={menuRef}
           style={getMenuStyles(menuOpened)}
         >
-          <li><a href="#experties">About</a></li>
-          <li><a href="#work">Experience</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#people">Testimonials</a></li>
+          <li><a href="#experties" onClick={()=>setMenuOpened(false)}>About</a></li>
+          <li><a href="#work" onClick={()=>setMenuOpened(false)}>Experience</a></li>
+          <li><a href="#portfolio" onClick={()=>setMenuOpened(false)}>Portfolio</a></li>
+          <li><a href="#people" onClick={()=>setMenuOpened(false)}>Testimonials</a></li>
           <li className={`flexCenter ${css.phone}`}>
-           <a href="tel:+923120685288" >
+           <a href="tel:+923120685288" onClick={()=>setMenuOpened(false)}>
            <p>+923120685288</p>
            <BiPhoneCall size={"40px"}  style={{backgroundColor:'orange', color:'white', 
             boxShadow:'0px 5px 30px orange'

@@ -9,7 +9,7 @@ import { saveAs } from "file-saver";
 
 const Hero = () => {
   const handleDownload = () => {
-    saveAs("/ahmadResume.pdf", "ahmadResume.pdf");
+    saveAs("/AhmadSultan.pdf", "ahmadResume.pdf");
   };
 
   return (
@@ -51,8 +51,8 @@ const Hero = () => {
           />
         </motion.div>
 
-        <a className={css.email} href="mailto:ahmadsultan395@gmail.com">
-          {/* ahmadsultan395@gmail.com */}
+        <a className={css.email} href="mailto:ahmad395sultan@gmail.com">
+          {/* ahmad395sultan@gmail.com */}
         </a>
 
         <div className={css.lowerElements}>

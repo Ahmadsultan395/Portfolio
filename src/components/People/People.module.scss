@@ -14,11 +14,13 @@
             .slider :global {
                 .slick-list {
                     margin: 0 -7px;
+                    // margin-bottom: -5rem;
                     box-sizing: initial;
                     padding: 80px 0px;
                     overflow-y: visible;
                     & .slick-slide>div {
                         padding: 0 20px;
+                        margin-bottom: -5rem;
                     }
                     & .slick-slide.slick-active.slick-current + .slick-slide{
                         @media (min-width: $lg) {
@@ -43,6 +45,7 @@
                 position: relative;
                 img{
                     margin: auto;
+                    // margin-bottom: -5rem;
                     border-radius: 100%;
                     width: 3.5rem;
                     height: 3.5rem;

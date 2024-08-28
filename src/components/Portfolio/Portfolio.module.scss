@@ -25,26 +25,42 @@
       
       width: 100%;
       justify-content: space-around;
-      // flex-wrap: wrap;
+      // margin-bottom: -5rem;
+      flex-wrap: wrap;
 
       .slider {
         width: 100%;
         flex-wrap: wrap;
         .slick-slide {
-          // margin: 0 150px; // Add gap between slides
+          width: 23rem;
+          height: 300px; 
+      // flex-wrap: wrap;
+
+
         }
 
-        .sliderImage {
-          // width: '$sm ? 95% : 100%';
+        .imagesliderdiv {
           width: 23rem;
-          height: 300px; // Set the fixed height for images
-          object-fit: cover; // Ensures the image covers the area without distorting
-          border-radius: 20px;
-          // box-shadow: 0px 21px 13px rgba(0, 0, 0, 13%);
-          filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 13%));
-          object-fit: cover;
-          cursor: pointer;
+          height: 300px;
+          // background-color: red;
+          display: flex; /* Use flexbox to align items */
+          justify-content: center; /* Centers the slider content horizontally */
+          align-items: center; /* Centers the slider content vertically */
+          overflow: hidden; /* Ensures any overflow is hidden */
+        
+          .sliderImage {
+            width: 100%; /* Adjust width to account for margin */
+            height: 100%;
+            object-fit: cover; /* Ensures the image covers the area without distorting */
+            border-radius: 20px;
+            // box-shadow: 0px 21px 13px rgba(0, 0, 0, 0.13); 
+            filter: drop-shadow(0px 10px 2px rgba(0, 0, 0, 0.13));
+            // margin-right: 1rem;
+            padding:  0rem .5rem;
+            cursor: pointer;
+          }
         }
+        
       }
     }
   }

@@ -87,7 +87,7 @@
         display: flex;
         flex-direction: column;
         .proheading{
-            font-size: 3rem;
+            font-size: 2.8rem;
             font-weight: 500;
             color: #132f3f;
             font-family: "Eudoxus Sans", sans-serif;
@@ -133,7 +133,7 @@ img{
     padding: 0% 8% 1% 8%;
 
     h1{
-        font-size: 3rem;
+        font-size: 2.8rem;
         font-weight: 500;
         color: #132f3f;
         font-family: "Eudoxus Sans", sans-serif;
@@ -146,6 +146,12 @@ img{
         line-height: 40px;
         margin-left: 1.2rem;
     }
+
+    @media(max-width:640px){
+        h1{
+            font-size: 2rem;
+        }
+    }
   }
   
   .problemsolve{
@@ -153,7 +159,7 @@ img{
     // margin-bottom: 2rem;
 
     h1{
-        font-size: 3rem;
+        font-size: 2.8rem;
         font-weight: 500;
         color: #132f3f;
         font-family: "Eudoxus Sans", sans-serif;
@@ -165,6 +171,12 @@ img{
         font-family: "Eudoxus Sans", sans-serif;
         line-height: 40px;
         // margin-left: 2rem;
+    }
+
+    @media(max-width:640px){
+        h1{
+            font-size: 2rem;
+        }
     }
   }
  

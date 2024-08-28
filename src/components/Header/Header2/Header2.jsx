@@ -16,7 +16,7 @@ const Header2 = () => {
   //to handle click outside of sidebar on mobile
   useOutsideAlerter({
     menuRef,
-    setMenuOpened,
+   menuOpened,
   });
 
   return (
@@ -38,9 +38,9 @@ const Header2 = () => {
           <li onClick={()=>navigate('/')} ><a href="#experties">About</a></li>
           <li onClick={()=>navigate('/')} ><a href="#work">Experience</a></li>
           <li onClick={()=>navigate('/')} ><a href="#portfolio">Portfolio</a></li>
-          <li onClick={()=>navigate('/')} ><a href="#people">Testimonials</a></li>
+          <li onClick={()=>{navigate('/')}} ><a href="#people">Testimonials</a></li>
           <li className={`flexCenter ${css.phone}`}>
-          <a href="tel:+923120685288" >
+          <a href="tel:+923120685288" onClick={()=>{ setMenuOpened(false)}}>
            <p>+923120685288</p>
            <BiPhoneCall size={"40px"} style={{backgroundColor:'orange', color:'white', 
             boxShadow:'0px 5px 30px orange'

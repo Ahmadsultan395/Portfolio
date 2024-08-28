@@ -81,12 +81,12 @@ const PortFolioDetail = () => {
                   {projectData.rolesubheading1sub}
                 </li>
                 <li>
-                  <strong>{projectData.rolesubheading1}</strong>
-                  {projectData.rolesubheading1sub}
+                  <strong>{projectData.rolesubheading2}</strong>
+                  {projectData.rolesubheading2sub}
                 </li>
                 <li>
-                  <strong>{projectData.rolesubheading1}</strong>
-                  {projectData.rolesubheading1sub}
+                  <strong>{projectData.rolesubheading3}</strong>
+                  {projectData.rolesubheading3sub}
                 </li>
               </ul>
             </div>
