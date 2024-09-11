@@ -295,4 +295,34 @@ export  const projects = [
     problemsolve:'Purpose and Rationale',
     problemsolveDes:"The website was developed to provide the client with a high-quality, interactive online presence that showcased their services, team, and portfolio in a visually appealing manner. The use of JavaScript and jQuery allowed for the creation of a dynamic user experience, aligning with the client’s focus on engaging frontend design."
   },
+  {
+    _id: 5,
+    projectName: "ProTech...",
+    headerImage: "/protech1.png",
+    desc: "ProTech is a forward-thinking technology company specializing in creating innovative digital solutions. we have rapidly grown into a trusted provider of comprehensive IT services, catering to a diverse range of client needs. Our offerings include website and app development, search engine optimization (SEO), social media marketing, email marketing, pay-per-click advertising, graphic design, and mobile app development.",
+    skills: [
+      { skill: "ReactJs" },
+      { skill: "Tailwind Css" },
+      { skill: "CSS3" },
+      { skill: "HTML5" },
+      // { skill: "Jquery" },
+      // { skill: "Bootstrap" },
+    ],
+    proconDesc:
+      "I designed and developed ProTech’s website using React.js and Tailwind CSS, focusing on creating a fully responsive and user-friendly experience. My aim was to showcase ProTech's services effectively while ensuring the site is easy to navigate and visually appealing. The result is a professional platform that reflects ProTech's expertise and engages visitors across all devices.",
+    proconImage: "/protech2.png",
+    myrolemain: "My Role in the project",
+    myrolemain1: "Challenges Faced",
+    rolesubheading1: "Cross-Browser Compatibility:",
+    rolesubheading1sub:
+      " Ensuring the website looked and functioned well across different browsers was a challenge. I had to write specific CSS and JavaScript code to address inconsistencies, especially in older browsers.",
+    rolesubheading2: "Consistent Ui Design:",
+    rolesubheading2sub:
+      "Maintaining a consistent and cohesive design throughout the site was essential. I focused on aligning the design elements across all pages, ensuring a seamless user experience.",
+    rolesubheading3: "Optimizing the performance:",
+    rolesubheading3sub:
+      "I had to minimize the use of heavy scripts and images, implement lazy loading, and compress resources to ensure fast load times and a smooth user experience.",
+    problemsolve:'Problems Solved',
+    problemsolveDes:'Developing a website for ProTech was a crucial move in establishing a strong online footprint. ProTech needed a digital platform that truly captured the essence of their brand, clearly showcasing their advanced services and industry expertise. The goal was to create more than just a website—it had to be an engaging experience that drew potential clients in, allowing them to easily navigate through ProTech’s offerings and connect with the team. This site was designed to be a powerful tool for communication, helping ProTech not only highlight their strengths but also drive business growth and build lasting relationships with clients.'
+  },
 ];
